@@ -75,7 +75,7 @@ mpoptROMBERG.pf.tol=tol;
 mpopt2S4.pf.tol=tol;
 %%
 
-for i = 398
+for i = 1:ntest
     mpc.bus(:,VA)=Va0(:, i);
     fprintf('\n-★-★-★-★-★test %d-★-★-★-★-★-\n', i);
     %% newton
