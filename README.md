@@ -2,9 +2,9 @@
 
  This repo is an extension package for the algorithms of Matpower, includeing:
 
- 1. Our proposed semi-implicit continuous Newton method (SICNM).
- 2. The classic Iwamoto's robust method [^iwamoto];
- 3. The original explicit[^cnm1] and implicit[^cnm2] Continuous Newton method proposed by Federico Milano .
+ 1. Our proposed [semi-implicit continuous Newton method](https://github.com/rzyu45/MATPOWER-SICNM/blob/main/src/sicnm.m).
+ 2. The classic [Iwamoto's robust method](https://github.com/rzyu45/MATPOWER-SICNM/blob/main/src/alg2_iwamoto.m) [^iwamoto];
+ 3. The original explicit[^cnm1] and implicit[^cnm2] [Continuous Newton method](https://github.com/rzyu45/MATPOWER-SICNM/blob/main/src/cnm.m) proposed by Federico Milano .
  4. Other algorithms used for comparison in our paper.
 
  This repo also holds the source codes of our paper currently under peer review.
