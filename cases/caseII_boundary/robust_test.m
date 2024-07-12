@@ -98,7 +98,7 @@ for i = 1:ntest
         end
         profile{i,mid}=errid;
     end
-    %% licnmpf-rodas4
+    %% sicnmpf-rodas4
     mid = 11;
     fprintf("\n-----SICNM-RODAS4-----\n")
     try
@@ -118,7 +118,7 @@ for i = 1:ntest
         end
         profile{i,mid}=errid;
     end
-    %% licnmpf-rodas3d
+    %% sicnmpf-rodas3d
     mid = 12;
     fprintf("\n-----SICNM-RODAS3D-----\n")
     try
